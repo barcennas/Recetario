@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E406B2A1DB990B3008B7ADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E406B291DB990B3008B7ADB /* AppDelegate.swift */; };
+		8E406B2C1DB990B3008B7ADB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E406B2B1DB990B3008B7ADB /* ViewController.swift */; };
+		8E406B2F1DB990B3008B7ADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E406B2D1DB990B3008B7ADB /* Main.storyboard */; };
+		8E406B311DB990B3008B7ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E406B301DB990B3008B7ADB /* Assets.xcassets */; };
+		8E406B341DB990B3008B7ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E406B321DB990B3008B7ADB /* LaunchScreen.storyboard */; };
+		8E406B3E1DBA6E76008B7ADB /* KVNProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E406B3D1DBA6E76008B7ADB /* KVNProgress.framework */; };
+		8E406B401DBAB188008B7ADB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E406B3F1DBAB188008B7ADB /* GoogleService-Info.plist */; };
+		8E4F0DFA1DBABFBA00DBF04C /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F0DF91DBABFBA00DBF04C /* MainTableViewController.swift */; };
+		8E4F0DFC1DBAC31600DBF04C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F0DFB1DBAC31600DBF04C /* User.swift */; };
+		8E4F0DFE1DBAC3B200DBF04C /* Receta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F0DFD1DBAC3B200DBF04C /* Receta.swift */; };
+		8E4F0E001DBACFB300DBF04C /* recetaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F0DFF1DBACFB300DBF04C /* recetaCell.swift */; };
+		8E4F0E021DBADBCB00DBF04C /* AddRecepieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F0E011DBADBCB00DBF04C /* AddRecepieController.swift */; };
+		94DEB6E6EC00BBDCF0B729E7 /* Pods_Recetario.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05E71323C5EFB438E240857 /* Pods_Recetario.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		376A8D9F10E719BB39F5E96C /* Pods-Recetario.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recetario.release.xcconfig"; path = "Pods/Target Support Files/Pods-Recetario/Pods-Recetario.release.xcconfig"; sourceTree = "<group>"; };
+		6D1A9814B74C34175E96BFEA /* Pods-Recetario.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recetario.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Recetario/Pods-Recetario.debug.xcconfig"; sourceTree = "<group>"; };
+		8E406B261DB990B3008B7ADB /* Recetario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recetario.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E406B291DB990B3008B7ADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E406B2B1DB990B3008B7ADB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E406B2E1DB990B3008B7ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E406B301DB990B3008B7ADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E406B331DB990B3008B7ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E406B351DB990B3008B7ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E406B3D1DBA6E76008B7ADB /* KVNProgress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KVNProgress.framework; path = "../../../Library/Developer/Xcode/DerivedData/Recetario-doqpuqasuvyqhhfcghfccyoigutd/Build/Products/Debug-iphonesimulator/KVNProgress/KVNProgress.framework"; sourceTree = "<group>"; };
+		8E406B3F1DBAB188008B7ADB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8E4F0DF91DBABFBA00DBF04C /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		8E4F0DFB1DBAC31600DBF04C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8E4F0DFD1DBAC3B200DBF04C /* Receta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Receta.swift; sourceTree = "<group>"; };
+		8E4F0DFF1DBACFB300DBF04C /* recetaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recetaCell.swift; sourceTree = "<group>"; };
+		8E4F0E011DBADBCB00DBF04C /* AddRecepieController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRecepieController.swift; sourceTree = "<group>"; };
+		B05E71323C5EFB438E240857 /* Pods_Recetario.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Recetario.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E406B231DB990B3008B7ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E406B3E1DBA6E76008B7ADB /* KVNProgress.framework in Frameworks */,
+				94DEB6E6EC00BBDCF0B729E7 /* Pods_Recetario.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BEB94051EDBB51D7C4F343E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E406B3D1DBA6E76008B7ADB /* KVNProgress.framework */,
+				B05E71323C5EFB438E240857 /* Pods_Recetario.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E406B1D1DB990B3008B7ADB = {
+			isa = PBXGroup;
+			children = (
+				8E406B281DB990B3008B7ADB /* Recetario */,
+				8E406B271DB990B3008B7ADB /* Products */,
+				9C010172AF7DDEC053F12847 /* Pods */,
+				1BEB94051EDBB51D7C4F343E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E406B271DB990B3008B7ADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E406B261DB990B3008B7ADB /* Recetario.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E406B281DB990B3008B7ADB /* Recetario */ = {
+			isa = PBXGroup;
+			children = (
+				8E406B3F1DBAB188008B7ADB /* GoogleService-Info.plist */,
+				8E406B291DB990B3008B7ADB /* AppDelegate.swift */,
+				8E4F0DFB1DBAC31600DBF04C /* User.swift */,
+				8E4F0DFD1DBAC3B200DBF04C /* Receta.swift */,
+				8E406B2B1DB990B3008B7ADB /* ViewController.swift */,
+				8E4F0DF91DBABFBA00DBF04C /* MainTableViewController.swift */,
+				8E4F0E011DBADBCB00DBF04C /* AddRecepieController.swift */,
+				8E4F0DFF1DBACFB300DBF04C /* recetaCell.swift */,
+				8E406B2D1DB990B3008B7ADB /* Main.storyboard */,
+				8E406B301DB990B3008B7ADB /* Assets.xcassets */,
+				8E406B321DB990B3008B7ADB /* LaunchScreen.storyboard */,
+				8E406B351DB990B3008B7ADB /* Info.plist */,
+			);
+			path = Recetario;
+			sourceTree = "<group>";
+		};
+		9C010172AF7DDEC053F12847 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D1A9814B74C34175E96BFEA /* Pods-Recetario.debug.xcconfig */,
+				376A8D9F10E719BB39F5E96C /* Pods-Recetario.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E406B251DB990B3008B7ADB /* Recetario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E406B381DB990B3008B7ADB /* Build configuration list for PBXNativeTarget "Recetario" */;
+			buildPhases = (
+				6AF13DA0FF7B40184D7878B1 /* [CP] Check Pods Manifest.lock */,
+				8E406B221DB990B3008B7ADB /* Sources */,
+				8E406B231DB990B3008B7ADB /* Frameworks */,
+				8E406B241DB990B3008B7ADB /* Resources */,
+				6C6C73CFE9BD694526F914C2 /* [CP] Embed Pods Frameworks */,
+				D8518D8E9C3A00A03CF877AF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recetario;
+			productName = Recetario;
+			productReference = 8E406B261DB990B3008B7ADB /* Recetario.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E406B1E1DB990B3008B7ADB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = bardev;
+				TargetAttributes = {
+					8E406B251DB990B3008B7ADB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = E5F4JMN6W8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8E406B211DB990B3008B7ADB /* Build configuration list for PBXProject "Recetario" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E406B1D1DB990B3008B7ADB;
+			productRefGroup = 8E406B271DB990B3008B7ADB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E406B251DB990B3008B7ADB /* Recetario */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E406B241DB990B3008B7ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E406B341DB990B3008B7ADB /* LaunchScreen.storyboard in Resources */,
+				8E406B401DBAB188008B7ADB /* GoogleService-Info.plist in Resources */,
+				8E406B311DB990B3008B7ADB /* Assets.xcassets in Resources */,
+				8E406B2F1DB990B3008B7ADB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AF13DA0FF7B40184D7878B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C6C73CFE9BD694526F914C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Recetario/Pods-Recetario-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8518D8E9C3A00A03CF877AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Recetario/Pods-Recetario-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E406B221DB990B3008B7ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4F0E021DBADBCB00DBF04C /* AddRecepieController.swift in Sources */,
+				8E4F0DFC1DBAC31600DBF04C /* User.swift in Sources */,
+				8E4F0E001DBACFB300DBF04C /* recetaCell.swift in Sources */,
+				8E406B2C1DB990B3008B7ADB /* ViewController.swift in Sources */,
+				8E4F0DFE1DBAC3B200DBF04C /* Receta.swift in Sources */,
+				8E4F0DFA1DBABFBA00DBF04C /* MainTableViewController.swift in Sources */,
+				8E406B2A1DB990B3008B7ADB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E406B2D1DB990B3008B7ADB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E406B2E1DB990B3008B7ADB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E406B321DB990B3008B7ADB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E406B331DB990B3008B7ADB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E406B361DB990B3008B7ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E406B371DB990B3008B7ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E406B391DB990B3008B7ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D1A9814B74C34175E96BFEA /* Pods-Recetario.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E5F4JMN6W8;
+				INFOPLIST_FILE = Recetario/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barcenas.Recetario;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8E406B3A1DB990B3008B7ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 376A8D9F10E719BB39F5E96C /* Pods-Recetario.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E5F4JMN6W8;
+				INFOPLIST_FILE = Recetario/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barcenas.Recetario;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E406B211DB990B3008B7ADB /* Build configuration list for PBXProject "Recetario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E406B361DB990B3008B7ADB /* Debug */,
+				8E406B371DB990B3008B7ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E406B381DB990B3008B7ADB /* Build configuration list for PBXNativeTarget "Recetario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E406B391DB990B3008B7ADB /* Debug */,
+				8E406B3A1DB990B3008B7ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E406B1E1DB990B3008B7ADB /* Project object */;
+}
